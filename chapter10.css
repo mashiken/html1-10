@@ -71,21 +71,19 @@ main {
   margin: 15px 0 5px;
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:768px) {
+
   main {
-    width: 90%;
-    margin: 50px auto;
+    width: 100%;
+    margin: 50px 5%;
   }
 
   .step-box {
-    clear: left;
-    width: 100%;
-    margin-bottom: 20px;
-    margin-right: 0
-  }
-
-  .step-box:last-child {
-    margin-bottom: 0;
+    clear: both;
+    width: 90%;
+    margin: 0 auto 20px;
+    border: 1px solid #eee;
+    padding: 10px;
   }
 
 
